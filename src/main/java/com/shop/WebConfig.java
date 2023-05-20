@@ -20,6 +20,10 @@ public class WebConfig implements WebMvcConfigurer {
                 .addResourceLocations("/Users/enesgunay/Desktop/ShopSmart/src/main/resources/static/media");
     }
 
+    public void feature2(){
+        System.out.println("todo");
+    }
+
     public void bugfix(String todo){
         System.out.println("todo");
     }
