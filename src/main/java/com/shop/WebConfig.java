@@ -19,4 +19,8 @@ public class WebConfig implements WebMvcConfigurer {
                 .addResourceHandler("/media/**")
                 .addResourceLocations("/Users/enesgunay/Desktop/ShopSmart/src/main/resources/static/media");
     }
+
+    public void bugfix(String todo){
+        System.out.println("todo");
+    }
 }
