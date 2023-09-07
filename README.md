@@ -40,13 +40,13 @@ Change database connection config in
 
 `cmsshoppingcart/src/main/resources/application.properties`
 
-`restapi/src/main/resources/application.properties
-`
-`restclient/src/main/resources/application.properties
-`
-	spring.datasource.url=jdbc:mysql://localhost/cmsshoppingcart
-	spring.datasource.username=root
-	spring.datasource.password=
+`restapi/src/main/resources/application.properties`
+
+`restclient/src/main/resources/application.properties`
+
+    spring.datasource.url=jdbc:mysql://localhost/cmsshoppingcart
+    spring.datasource.username=root
+    spring.datasource.password=
 
 # Project Setup
 * Clone and open in Visual Studio Code (other IDE is also fine, make sure that spring boot plugins is installed)
